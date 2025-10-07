@@ -1,0 +1,363 @@
+[
+  {
+    "id": 1,
+    "question": "What is recursion in programming?",
+    "options": ["A loop that repeats multiple times", "A function calling itself", "Using multiple functions at once", "None of the above"],
+    "answer": "A function calling itself"
+  },
+  {
+    "id": 2,
+    "question": "What must every recursive function have to avoid infinite recursion?",
+    "options": ["A loop", "A global variable", "A base case", "A return statement"],
+    "answer": "A base case"
+  },
+  {
+    "id": 3,
+    "question": "What happens if a recursive function does not reach a base case?",
+    "options": ["The program runs faster", "The program ends immediately", "A stack overflow error occurs", "It returns 0 by default"],
+    "answer": "A stack overflow error occurs"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following is an example of a recursive function?",
+    "options": ["A function that uses for loop", "A function that calls itself", "A function that returns a string", "A function that uses recursion library"],
+    "answer": "A function that calls itself"
+  },
+  {
+    "id": 5,
+    "question": "What is the base case in a recursive factorial function?",
+    "options": ["n == 0", "n == 1", "Both a and b", "None of the above"],
+    "answer": "Both a and b"
+  },
+  {
+    "id": 6,
+    "question": "Which of these is an advantage of recursion?",
+    "options": ["It always uses less memory", "It simplifies complex problems", "It is always faster than iteration", "It avoids function calls"],
+    "answer": "It simplifies complex problems"
+  },
+  {
+    "id": 7,
+    "question": "Which function call is an example of tail recursion?",
+    "options": ["return n * fact(n-1);", "return fact(n-1) * n;", "return helper(n-1, acc*n);", "return n + fact(n-1);"],
+    "answer": "return helper(n-1, acc*n);"
+  },
+  {
+    "id": 8,
+    "question": "In recursion, what data structure is primarily used for function calls?",
+    "options": ["Queue", "Stack", "Linked List", "Tree"],
+    "answer": "Stack"
+  },
+  {
+    "id": 9,
+    "question": "What is the time complexity of a basic recursive Fibonacci function?",
+    "options": ["O(n)", "O(n²)", "O(2ⁿ)", "O(log n)"],
+    "answer": "O(2ⁿ)"
+  },
+  {
+    "id": 10,
+    "question": "Which of these is NOT a typical use of recursion?",
+    "options": ["Factorial calculation", "Fibonacci sequence", "Database indexing", "Tree traversal"],
+    "answer": "Database indexing"
+  },
+  {
+    "id": 11,
+    "question": "Which variable is only accessible within the block it is defined?",
+    "options": ["Global variable", "Local variable", "Static variable", "External variable"],
+    "answer": "Local variable"
+  },
+  {
+    "id": 12,
+    "question": "What is the lifetime of a global variable?",
+    "options": ["Until the function ends", "Until the block ends", "Until the program terminates", "Until it is reassigned"],
+    "answer": "Until the program terminates"
+  },
+  {
+    "id": 13,
+    "question": "Which keyword in C can be used to make a local variable retain its value between function calls?",
+    "options": ["const", "volatile", "static", "extern"],
+    "answer": "static"
+  },
+  {
+    "id": 14,
+    "question": "What is the scope of a variable declared inside a function?",
+    "options": ["Global", "Block", "Local", "File"],
+    "answer": "Local"
+  },
+  {
+    "id": 15,
+    "question": "Which of the following best describes a variable's “lifetime”?",
+    "options": ["Where it is visible", "Where it can be used", "How long it exists in memory", "Its data type size"],
+    "answer": "How long it exists in memory"
+  },
+  {
+    "id": 16,
+    "question": "A variable declared with extern has what type of scope?",
+    "options": ["Block scope", "Function scope", "File scope", "Global scope"],
+    "answer": "Global scope"
+  },
+  {
+    "id": 17,
+    "question": "Which type of variable is stored in memory for the entire execution of a program?",
+    "options": ["Local variable", "Automatic variable", "Static variable", "Register variable"],
+    "answer": "Static variable"
+  },
+  {
+    "id": 18,
+    "question": "What happens if you try to access a local variable outside its scope?",
+    "options": ["It returns 0", "It causes a compile-time error", "It throws a runtime exception", "It gets promoted to global"],
+    "answer": "It causes a compile-time error"
+  },
+  {
+    "id": 19,
+    "question": "Where are automatic (local) variables usually stored?",
+    "options": ["Heap", "Stack", "Data segment", "ROM"],
+    "answer": "Stack"
+  },
+  {
+    "id": 20,
+    "question": "Which keyword gives a variable external linkage?",
+    "options": ["global", "extern", "public", "shared"],
+    "answer": "extern"
+  },
+  {
+    "id": 21,
+    "question": "What is a class in OOP?",
+    "options": ["A function", "A blueprint for objects", "A variable type", "A library"],
+    "answer": "A blueprint for objects"
+  },
+  {
+    "id": 22,
+    "question": "What is an object in OOP?",
+    "options": ["A real-world entity", "An instance of a class", "Both a and b", "None of the above"],
+    "answer": "Both a and b"
+  },
+  {
+    "id": 23,
+    "question": "Which keyword is used to define a class in C++?",
+    "options": ["object", "struct", "class", "def"],
+    "answer": "class"
+  },
+  {
+    "id": 24,
+    "question": "How do you create an object from a class named Car?",
+    "options": ["Car;", "Car myCar;", "object Car;", "Car->new();"],
+    "answer": "Car myCar;"
+  },
+  {
+    "id": 25,
+    "question": "What is the main purpose of OOP?",
+    "options": ["Faster execution", "Modular and reusable code", "Less memory usage", "Easier debugging only"],
+    "answer": "Modular and reusable code"
+  },
+  {
+    "id": 26,
+    "question": "In OOP, what does an object usually represent?",
+    "options": ["A data structure", "A variable", "A real-world entity", "A method"],
+    "answer": "A real-world entity"
+  },
+  {
+    "id": 27,
+    "question": "What is the process of creating an object called?",
+    "options": ["Instantiation", "Compilation", "Inheritance", "Initialization"],
+    "answer": "Instantiation"
+  },
+  {
+    "id": 28,
+    "question": "What does a constructor do in a class?",
+    "options": ["Destroys objects", "Creates classes", "Initializes objects", "Returns data"],
+    "answer": "Initializes objects"
+  },
+  {
+    "id": 29,
+    "question": "How many objects can be created from a class?",
+    "options": ["One", "Multiple", "Unlimited", "Zero"],
+    "answer": "Unlimited"
+  },
+  {
+    "id": 30,
+    "question": "What is a member function?",
+    "options": ["A global function", "A function defined inside a class", "A private variable", "A constant"],
+    "answer": "A function defined inside a class"
+  },
+  {
+    "id": 31,
+    "question": "What is inheritance in OOP?",
+    "options": ["Creating objects", "Deriving a new class from an existing one", "Overloading a function", "Hiding data"],
+    "answer": "Deriving a new class from an existing one"
+  },
+  {
+    "id": 32,
+    "question": "What is the parent class also called?",
+    "options": ["Subclass", "Superclass", "Derived class", "Base"],
+    "answer": "Superclass"
+  },
+  {
+    "id": 33,
+    "question": "Which symbol is used for inheritance in C++?",
+    "options": [":", "->", "extends", "inherit"],
+    "answer": ":"
+  },
+  {
+    "id": 34,
+    "question": "What is polymorphism?",
+    "options": ["Many objects", "Many forms of a function or method", "Hiding data", "Encapsulation"],
+    "answer": "Many forms of a function or method"
+  },
+  {
+    "id": 35,
+    "question": "Which of the following is a type of polymorphism?",
+    "options": ["Overloading", "Overriding", "Both a and b", "Abstraction"],
+    "answer": "Both a and b"
+  },
+  {
+    "id": 36,
+    "question": "Which keyword allows a derived class to access members of the base class in C++?",
+    "options": ["public", "extends", "using", "inherit"],
+    "answer": "public"
+  },
+  {
+    "id": 37,
+    "question": "What is method overriding?",
+    "options": ["Writing a new method with the same name in derived class", "Using multiple methods with different names", "Overloading a constructor", "Hiding variables"],
+    "answer": "Writing a new method with the same name in derived class"
+  },
+  {
+    "id": 38,
+    "question": "Which of the following is NOT a type of inheritance?",
+    "options": ["Single", "Double", "Multiple", "Multilevel"],
+    "answer": "Double"
+  },
+  {
+    "id": 39,
+    "question": "Which function is executed first when a derived object is created?",
+    "options": ["Derived class constructor", "Base class constructor", "Destructor", "Virtual function"],
+    "answer": "Base class constructor"
+  },
+  {
+    "id": 40,
+    "question": "What is the main advantage of polymorphism?",
+    "options": ["Faster execution", "Dynamic behavior", "Better memory usage", "Less coding"],
+    "answer": "Dynamic behavior"
+  },
+  {
+    "id": 41,
+    "question": "What is encapsulation?",
+    "options": ["Hiding data using classes and objects", "Combining data and functions together", "Restricting access to variables", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "id": 42,
+    "question": "Which access specifier hides data from outside access?",
+    "options": ["public", "private", "protected", "extern"],
+    "answer": "private"
+  },
+  {
+    "id": 43,
+    "question": "What is abstraction in OOP?",
+    "options": ["Hiding complexity and showing essential features", "Showing all details of a class", "Using multiple inheritance", "Data hiding using private"],
+    "answer": "Hiding complexity and showing essential features"
+  },
+  {
+    "id": 44,
+    "question": "Which of the following is a real-life example of abstraction?",
+    "options": ["Car’s engine details shown to driver", "Driving a car without knowing how the engine works", "Writing a program without classes", "Accessing variables directly"],
+    "answer": "Driving a car without knowing how the engine works"
+  },
+  {
+    "id": 45,
+    "question": "Encapsulation ensures:",
+    "options": ["Faster code", "Data security", "Compiler optimization", "Memory allocation"],
+    "answer": "Data security"
+  },
+  {
+    "id": 46,
+    "question": "Which keyword is used in many languages to define abstract classes?",
+    "options": ["virtual", "abstract", "interface", "final"],
+    "answer": "abstract"
+  },
+  {
+    "id": 47,
+    "question": "Which is NOT a benefit of abstraction?",
+    "options": ["Reduces complexity", "Increases security", "Makes code easier to maintain", "Increases code size"],
+    "answer": "Increases code size"
+  },
+  {
+    "id": 48,
+    "question": "What is a common way to achieve encapsulation?",
+    "options": ["Global variables", "Getter and setter methods", "Using inheritance", "Using polymorphism"],
+    "answer": "Getter and setter methods"
+  },
+  {
+    "id": 49,
+    "question": "What will happen if private data is accessed outside the class?",
+    "options": ["Runtime error", "Compile-time error", "Logical error", "No error"],
+    "answer": "Compile-time error"
+  },
+  {
+    "id": 50,
+    "question": "Which concept ensures only required details are visible?",
+    "options": ["Encapsulation", "Abstraction", "Polymorphism", "Inheritance"],
+    "answer": "Abstraction"
+  },
+  {
+    "id": 51,
+    "question": "What is a syntax error?",
+    "options": ["Mistake in program logic", "Mistake in language rules", "Error during execution", "Divide by zero"],
+    "answer": "Mistake in language rules"
+  },
+  {
+    "id": 52,
+    "question": "Which type of error is detected by the compiler?",
+    "options": ["Syntax error", "Runtime error", "Logical error", "Semantic error"],
+    "answer": "Syntax error"
+  },
+  {
+    "id": 53,
+    "question": "What is a runtime error?",
+    "options": ["Error in syntax", "Error occurring while the program runs", "Incorrect algorithm", "Code not compiling"],
+    "answer": "Error occurring while the program runs"
+  },
+  {
+    "id": 54,
+    "question": "Dividing a number by zero will cause a:",
+    "options": ["Syntax error", "Runtime error", "Logical error", "Compiler warning"],
+    "answer": "Runtime error"
+  },
+  {
+    "id": 55,
+    "question": "Which of the following is a logical error?",
+    "options": ["Missing semicolon", "Accessing an undefined variable", "Wrong formula for calculation", "Segmentation fault"],
+    "answer": "Wrong formula for calculation"
+  },
+  {
+    "id": 56,
+    "question": "Which error stops the program from compiling?",
+    "options": ["Syntax error", "Runtime error", "Logical error", "None of the above"],
+    "answer": "Syntax error"
+  },
+  {
+    "id": 57,
+    "question": "What is the result of a logical error?",
+    "options": ["Program crashes", "Program runs but gives wrong output", "Compiler error", "Syntax error"],
+    "answer": "Program runs but gives wrong output"
+  },
+  {
+    "id": 58,
+    "question": "What causes runtime errors most often?",
+    "options": ["Typo mistakes", "Invalid operations at execution time", "Incorrect algorithm", "Missing semicolons"],
+    "answer": "Invalid operations at execution time"
+  },
+  {
+    "id": 59,
+    "question": "Which error is the most difficult to detect?",
+    "options": ["Syntax error", "Runtime error", "Logical error", "None"],
+    "answer": "Logical error"
+  },
+  {
+    "id": 60,
+    "question": "A program compiles and runs but gives wrong output. What type of error is this?",
+    "options": ["Syntax", "Runtime", "Logical", "Compilation"],
+    "answer": "Logical"
+  }
+]
+
