@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "Which device is considered the 'brain' of the computer?",
+    "options": ["Hard Disk", "CPU", "RAM", "Monitor"],
+    "answer": "CPU"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is an input device?",
+    "options": ["Printer", "Monitor", "Keyboard", "Speaker"],
+    "answer": "Keyboard"
+  },
+  {
+    "id": 3,
+    "question": "Which unit is used to measure the speed of processors?",
+    "options": ["Hertz", "Bits", "Bytes", "Pixels"],
+    "answer": "Hertz"
+  },
+  {
+    "id": 4,
+    "question": "Which memory is volatile?",
+    "options": ["ROM", "RAM", "Hard Disk", "DVD"],
+    "answer": "RAM"
+  },
+  {
+    "id": 5,
+    "question": "What does BIOS stand for?",
+    "options": ["Basic Integrated Operating System", "Basic Input Output System", "Binary Input Output Software", "Basic Internal Output System"],
+    "answer": "Basic Input Output System"
+  },
+  {
+    "id": 6,
+    "question": "Which device stores data permanently?",
+    "options": ["RAM", "ROM", "Hard Disk", "Cache"],
+    "answer": "Hard Disk"
+  },
+  {
+    "id": 7,
+    "question": "Which type of memory is used to improve CPU performance by storing frequently used data?",
+    "options": ["Cache", "ROM", "DVD", "Pen Drive"],
+    "answer": "Cache"
+  },
+  {
+    "id": 8,
+    "question": "Which port is commonly used to connect a keyboard?",
+    "options": ["HDMI", "USB", "VGA", "Ethernet"],
+    "answer": "USB"
+  },
+  {
+    "id": 9,
+    "question": "What does ALU stand for?",
+    "options": ["Arithmetic Logic Unit", "Application Logic Unit", "Advanced Logic Utility", "Arithmetic Language Utility"],
+    "answer": "Arithmetic Logic Unit"
+  },
+  {
+    "id": 10,
+    "question": "Which part of the computer is responsible for displaying output?",
+    "options": ["Keyboard", "CPU", "Monitor", "Mouse"],
+    "answer": "Monitor"
+  },
+  {
+    "id": 11,
+    "question": "Which memory stores data temporarily while the computer is running?",
+    "options": ["ROM", "RAM", "Hard Disk", "CD"],
+    "answer": "RAM"
+  },
+  {
+    "id": 12,
+    "question": "Which device is used to produce a paper copy of digital data?",
+    "options": ["Printer", "Scanner", "Monitor", "Projector"],
+    "answer": "Printer"
+  },
+  {
+    "id": 13,
+    "question": "What is the main function of the control unit in the CPU?",
+    "options": ["Perform calculations", "Manage input/output", "Direct operations of the processor", "Store data"],
+    "answer": "Direct operations of the processor"
+  },
+  {
+    "id": 14,
+    "question": "Which type of storage is optical?",
+    "options": ["Hard Disk", "CD/DVD", "SSD", "Flash Drive"],
+    "answer": "CD/DVD"
+  },
+  {
+    "id": 15,
+    "question": "Which of the following is NOT an output device?",
+    "options": ["Monitor", "Printer", "Keyboard", "Speakers"],
+    "answer": "Keyboard"
+  },
+  {
+    "id": 16,
+    "question": "Which generation of computers used microprocessors?",
+    "options": ["First", "Second", "Third", "Fourth"],
+    "answer": "Fourth"
+  },
+  {
+    "id": 17,
+    "question": "What is the full form of USB?",
+    "options": ["Universal Serial Bus", "Unique Serial Bus", "Unified System Board", "Universal System Bus"],
+    "answer": "Universal Serial Bus"
+  },
+  {
+    "id": 18,
+    "question": "Which memory is non-volatile and can be electrically erased and reprogrammed?",
+    "options": ["RAM", "ROM", "Flash Memory", "Cache"],
+    "answer": "Flash Memory"
+  },
+  {
+    "id": 19,
+    "question": "Which device is used to convert digital signals into analog for transmission?",
+    "options": ["Router", "Modem", "Switch", "Hub"],
+    "answer": "Modem"
+  },
+  {
+    "id": 20,
+    "question": "Which protocol is used to transfer files over the Internet?",
+    "options": ["FTP", "HTTP", "SMTP", "SNMP"],
+    "answer": "FTP"
+  },
+  {
+    "id": 21,
+    "question": "Which device is primarily used for backup storage?",
+    "options": ["Hard Disk", "Tape Drive", "RAM", "Cache"],
+    "answer": "Tape Drive"
+  },
+  {
+    "id": 22,
+    "question": "Which expansion slot is commonly used for graphic cards?",
+    "options": ["PCI", "AGP", "PCI Express", "ISA"],
+    "answer": "PCI Express"
+  },
+  {
+    "id": 23,
+    "question": "Which type of printer uses impact technology?",
+    "options": ["Inkjet", "Laser", "Dot Matrix", "Thermal"],
+    "answer": "Dot Matrix"
+  },
+  {
+    "id": 24,
+    "question": "Which part of the computer handles arithmetic and logical operations?",
+    "options": ["RAM", "CU", "ALU", "HDD"],
+    "answer": "ALU"
+  },
+  {
+    "id": 25,
+    "question": "Which port is used to connect monitors to computers?",
+    "options": ["VGA", "USB", "HDMI", "Both a and c"],
+    "answer": "Both a and c"
+  },
+  {
+    "id": 26,
+    "question": "What is the full form of IP in networking?",
+    "options": ["Internet Program", "Internal Protocol", "Internet Protocol", "Interconnected Program"],
+    "answer": "Internet Protocol"
+  },
+  {
+    "id": 27,
+    "question": "Which component is known as the primary storage?",
+    "options": ["RAM", "Hard Disk", "Pen Drive", "DVD"],
+    "answer": "RAM"
+  },
+  {
+    "id": 28,
+    "question": "What is the function of an operating system?",
+    "options": ["Manage hardware", "Provide user interface", "Manage files", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "id": 29,
+    "question": "Which device connects multiple computers in a LAN?",
+    "options": ["Hub", "Switch", "Router", "Modem"],
+    "answer": "Switch"
+  },
+  {
+    "id": 30,
+    "question": "Which technology is used in SSDs for storage?",
+    "options": ["Magnetic", "Optical", "Flash", "Mechanical"],
+    "answer": "Flash"
+  },
+  {
+    "id": 31,
+    "question": "Which unit is used to measure monitor resolution?",
+    "options": ["Pixels", "Bytes", "DPI", "Hertz"],
+    "answer": "Pixels"
+  },
+  {
+    "id": 32,
+    "question": "Which programming language is known as the ‘mother of all languages’?",
+    "options": ["C", "FORTRAN", "Assembly", "COBOL"],
+    "answer": "FORTRAN"
+  },
+  {
+    "id": 33,
+    "question": "Which memory is the fastest?",
+    "options": ["RAM", "Cache", "Virtual Memory", "Flash"],
+    "answer": "Cache"
+  },
+  {
+    "id": 34,
+    "question": "Which type of computer is used for weather forecasting?",
+    "options": ["Supercomputer", "Mainframe", "Personal Computer", "Laptop"],
+    "answer": "Supercomputer"
+  },
+  {
+    "id": 35,
+    "question": "Which key combination is used to copy selected text?",
+    "options": ["Ctrl + V", "Ctrl + C", "Ctrl + X", "Ctrl + Z"],
+    "answer": "Ctrl + C"
+  },
+  {
+    "id": 36,
+    "question": "Which device is used for digitizing physical documents?",
+    "options": ["Monitor", "Scanner", "Printer", "Joystick"],
+    "answer": "Scanner"
+  },
+  {
+    "id": 37,
+    "question": "What is the binary equivalent of decimal 10?",
+    "options": ["1001", "1010", "1110", "1100"],
+    "answer": "1010"
+  },
+  {
+    "id": 38,
+    "question": "Which part of the computer connects all components?",
+    "options": ["CPU", "Motherboard", "Hard Disk", "Cache"],
+    "answer": "Motherboard"
+  },
+  {
+    "id": 39,
+    "question": "Which of the following is a volatile memory?",
+    "options": ["Hard Disk", "ROM", "RAM", "Flash"],
+    "answer": "RAM"
+  },
+  {
+    "id": 40,
+    "question": "Which software helps detect and remove malicious programs?",
+    "options": ["Compiler", "Antivirus", "Firewall", "Debugger"],
+    "answer": "Antivirus"
+  },
+  {
+    "id": 41,
+    "question": "Which unit is used to measure data transfer speed?",
+    "options": ["Bits per second", "Bytes", "Pixels", "Hertz"],
+    "answer": "Bits per second"
+  },
+  {
+    "id": 42,
+    "question": "Which type of computer memory is programmable by the user?",
+    "options": ["PROM", "ROM", "RAM", "Cache"],
+    "answer": "PROM"
+  },
+  {
+    "id": 43,
+    "question": "Which of the following is NOT a type of computer network?",
+    "options": ["LAN", "WAN", "TAN", "MAN"],
+    "answer": "TAN"
+  },
+  {
+    "id": 44,
+    "question": "Which company developed Windows OS?",
+    "options": ["Apple", "Microsoft", "IBM", "Google"],
+    "answer": "Microsoft"
+  },
+  {
+    "id": 45,
+    "question": "What does HTTP stand for?",
+    "options": ["HyperText Transfer Protocol", "HighText Transfer Protocol", "HyperText Transmission Process", "Hyperlink Transfer Protocol"],
+    "answer": "HyperText Transfer Protocol"
+  },
+  {
+    "id": 46,
+    "question": "Which of the following is an example of open-source software?",
+    "options": ["MS Office", "Linux", "Photoshop", "Windows"],
+    "answer": "Linux"
+  },
+  {
+    "id": 47,
+    "question": "Which computer memory is built into the CPU?",
+    "options": ["Cache", "RAM", "ROM", "Flash"],
+    "answer": "Cache"
+  },
+  {
+    "id": 48,
+    "question": "Which storage device has no moving parts?",
+    "options": ["HDD", "SSD", "CD", "Tape Drive"],
+    "answer": "SSD"
+  },
+  {
+    "id": 49,
+    "question": "Which network device forwards data based on IP addresses?",
+    "options": ["Switch", "Router", "Hub", "Bridge"],
+    "answer": "Router"
+  },
+  {
+    "id": 50,
+    "question": "Which shortcut is used to undo the last action?",
+    "options": ["Ctrl + U", "Ctrl + C", "Ctrl + Z", "Ctrl + X"],
+    "answer": "Ctrl + Z"
+  },
+  {
+    "id": 51,
+    "question": "What is the storage capacity of a standard CD?",
+    "options": ["650 MB", "1 GB", "700 MB", "4.7 GB"],
+    "answer": "700 MB"
+  },
+  {
+    "id": 52,
+    "question": "Which device controls cursor movement on a screen?",
+    "options": ["Monitor", "Keyboard", "Mouse", "Printer"],
+    "answer": "Mouse"
+  },
+  {
+    "id": 53,
+    "question": "Which type of network is used within a city?",
+    "options": ["WAN", "LAN", "MAN", "PAN"],
+    "answer": "MAN"
+  },
+  {
+    "id": 54,
+    "question": "Which of the following is an output device?",
+    "options": ["Mouse", "Keyboard", "Monitor", "Scanner"],
+    "answer": "Monitor"
+  },
+  {
+    "id": 55,
+    "question": "Which key is used to refresh a webpage?",
+    "options": ["F1", "F2", "F5", "F12"],
+    "answer": "F5"
+  },
+  {
+    "id": 56,
+    "question": "What does VPN stand for?",
+    "options": ["Virtual Private Network", "Visual Private Network", "Virtual Public Network", "Verified Private Network"],
+    "answer": "Virtual Private Network"
+  },
+  {
+    "id": 57,
+    "question": "Which storage medium is erasable and reusable?",
+    "options": ["DVD-ROM", "CD-R", "CD-RW", "Blu-ray"],
+    "answer": "CD-RW"
+  },
+  {
+    "id": 58,
+    "question": "Which programming language is primarily used for AI?",
+    "options": ["Python", "C++", "Java", "Pascal"],
+    "answer": "Python"
+  },
+  {
+    "id": 59,
+    "question": "Which of these is a biometric input device?",
+    "options": ["Webcam", "Fingerprint Scanner", "Microphone", "Mouse"],
+    "answer": "Fingerprint Scanner"
+  },
+  {
+    "id": 60,
+    "question": "What is the full form of GUI?",
+    "options": ["General User Interface", "Graphical User Interface", "Global User Interaction", "Graphical Utility Input"],
+    "answer": "Graphical User Interface"
+  }
+]
