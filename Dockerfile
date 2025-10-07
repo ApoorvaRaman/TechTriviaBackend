@@ -1,17 +1,17 @@
-# 1️⃣ Use official Java 17 image
-FROM eclipse-temurin:17-jdk
-
-# 2️⃣ Set working directory inside the container
+# 1️⃣ Use Maven image to build the project
+FROM maven:3.9.6-eclipse-temurin-17 AS build
 WORKDIR /app
+COPY pom.xml .
+COPY src ./src
+RUN mvn clean package -DskipTests
 
-# 3️⃣ Copy project files
-COPY . .
+# 2️⃣ Use a lightweight JDK runtime image
+FROM eclipse-temurin:17-jdk-jammy
+WORKDIR /app
+COPY --from=build /app/target/TechTriviaBackend-0.0.1-SNAPSHOT.jar app.jar
 
-# 4️⃣ Build the Spring Boot JAR using Maven wrapper (skip tests)
-RUN ./mvnw clean package -DskipTests
-
-# 5️⃣ Expose the app port
+# 3️⃣ Expose the port Spring Boot runs on
 EXPOSE 8080
 
-# 6️⃣ Run the built JAR file
-CMD ["java", "-jar", "target/TechTriviaBackend-0.0.1-SNAPSHOT.jar"]
+# 4️⃣ Run the JAR
+ENTRYPOINT ["java","-jar","app.jar"]
