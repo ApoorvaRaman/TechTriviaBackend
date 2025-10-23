@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TechTrivia Demo</title>
+<style>
+body { font-family: Arial, sans-serif; padding: 20px; max-width: 800px; margin: auto; }
+h2 { color: #333; }
+button { margin: 5px 0; padding: 8px 12px; cursor: pointer; }
+.correct { background-color: #4CAF50; color: white; }
+.wrong { background-color: #f44336; color: white; }
+</style>
+</head>
+<body>
+<h1>TechTrivia Demo</h1>
+<div id="quiz"></div>
+
+<script>
+const questions = [
+  { q: "Which device is considered the 'brain' of the computer?", opts: ["Hard Disk","CPU","RAM","Monitor"], ans: 1 },
+  { q: "Which of the following is an input device?", opts: ["Printer","Monitor","Keyboard","Speaker"], ans: 2 },
+  { q: "Which memory is volatile?", opts: ["ROM","RAM","Hard Disk","DVD"], ans: 1 },
+  { q: "Which keyword in C can be used to make a local variable retain its value?", opts: ["const","volatile","static","extern"], ans: 2 },
+  { q: "What is a class in OOP?", opts: ["A function","A blueprint for objects","A variable type","A library"], ans: 1 },
+  { q: "Which type of variable is stored in memory for the entire execution?", opts: ["Local","Automatic","Static","Register"], ans: 2 },
+  { q: "Which data structure uses LIFO principle?", opts: ["Queue","Stack","Linked List","Tree"], ans: 1 },
+  { q: "Which sorting algorithm has the best average case time complexity?", opts: ["Bubble Sort","Selection Sort","Quick Sort","Insertion Sort"], ans: 2 },
+  { q: "Which of the following is an application of stack?", opts: ["Undo feature","Page replacement","CPU Scheduling","Hashing"], ans: 0 },
+  { q: "Which network device forwards data based on IP addresses?", opts: ["Switch","Router","Hub","Bridge"], ans: 1 }
+];
+
+const quizDiv = document.getElementById("quiz");
+
+questions.forEach((q, idx) => {
+  const qDiv = document.createElement("div");
+  qDiv.innerHTML = `<h2>Q${idx+1}: ${q.q}</h2>`;
+  
+  q.opts.forEach((opt, i) => {
+    const btn = document.createElement("button");
+    btn.innerText = opt;
+    btn.onclick = () => {
+      if(i === q.ans) btn.classList.add("correct");
+      else btn.classList.add("wrong");
+      // Disable all buttons for this question
+      Array.from(qDiv.getElementsByTagName("button")).forEach(b => b.disabled = true);
+    };
+    qDiv.appendChild(btn);
+  });
+
+  quizDiv.appendChild(qDiv);
+});
+</script>
+</body>
+</html>
