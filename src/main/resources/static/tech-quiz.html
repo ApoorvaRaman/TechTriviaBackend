@@ -2,20 +2,28 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>TechTrivia Demo</title>
+<title>TechTrivia Demo Quiz</title>
 <style>
 body { font-family: Arial, sans-serif; padding: 20px; max-width: 800px; margin: auto; }
-h2 { color: #333; }
+h1 { color: #333; }
+h2 { color: #555; }
 button { margin: 5px 0; padding: 8px 12px; cursor: pointer; }
 .correct { background-color: #4CAF50; color: white; }
 .wrong { background-color: #f44336; color: white; }
+#score { font-size: 18px; margin-top: 20px; }
 </style>
 </head>
 <body>
 <h1>TechTrivia Demo</h1>
-<div id="quiz"></div>
+<div id="quiz-container">
+  <div id="question-area"></div>
+  <div id="options-area"></div>
+  <button id="next-btn" style="display:none;">Next Question</button>
+</div>
+<div id="score"></div>
 
 <script>
+// 10 demo questions (tech.json)
 const questions = [
   { q: "Which device is considered the 'brain' of the computer?", opts: ["Hard Disk","CPU","RAM","Monitor"], ans: 1 },
   { q: "Which of the following is an input device?", opts: ["Printer","Monitor","Keyboard","Speaker"], ans: 2 },
@@ -29,26 +37,51 @@ const questions = [
   { q: "Which network device forwards data based on IP addresses?", opts: ["Switch","Router","Hub","Bridge"], ans: 1 }
 ];
 
-const quizDiv = document.getElementById("quiz");
+let currentQ = 0;
+let score = 0;
 
-questions.forEach((q, idx) => {
-  const qDiv = document.createElement("div");
-  qDiv.innerHTML = `<h2>Q${idx+1}: ${q.q}</h2>`;
-  
-  q.opts.forEach((opt, i) => {
+const qArea = document.getElementById("question-area");
+const optArea = document.getElementById("options-area");
+const nextBtn = document.getElementById("next-btn");
+const scoreDiv = document.getElementById("score");
+
+function showQuestion() {
+  qArea.innerHTML = `<h2>Q${currentQ+1}: ${questions[currentQ].q}</h2>`;
+  optArea.innerHTML = '';
+  nextBtn.style.display = 'none';
+  questions[currentQ].opts.forEach((opt, i) => {
     const btn = document.createElement("button");
     btn.innerText = opt;
     btn.onclick = () => {
-      if(i === q.ans) btn.classList.add("correct");
-      else btn.classList.add("wrong");
-      // Disable all buttons for this question
-      Array.from(qDiv.getElementsByTagName("button")).forEach(b => b.disabled = true);
+      if(i === questions[currentQ].ans) {
+        btn.classList.add("correct");
+        score++;
+      } else {
+        btn.classList.add("wrong");
+        // highlight correct answer
+        optArea.children[questions[currentQ].ans].classList.add("correct");
+      }
+      Array.from(optArea.getElementsByTagName("button")).forEach(b => b.disabled = true);
+      nextBtn.style.display = 'inline-block';
+      scoreDiv.innerText = `Score: ${score} / ${questions.length}`;
     };
-    qDiv.appendChild(btn);
+    optArea.appendChild(btn);
   });
+}
 
-  quizDiv.appendChild(qDiv);
-});
+nextBtn.onclick = () => {
+  currentQ++;
+  if(currentQ < questions.length) showQuestion();
+  else {
+    qArea.innerHTML = "<h2>Quiz Completed!</h2>";
+    optArea.innerHTML = '';
+    nextBtn.style.display = 'none';
+    scoreDiv.innerHTML = `<strong>Final Score: ${score} / ${questions.length}</strong>`;
+  }
+};
+
+// start quiz
+showQuestion();
 </script>
 </body>
 </html>
